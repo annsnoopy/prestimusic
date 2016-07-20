@@ -1,0 +1,85 @@
+@import url(//fonts.googleapis.com/css?family=Cabin);
+
+body {
+    width: 960px;
+    margin: auto;
+    
+}
+
+.nav a {
+    text-decoration: none; 
+    color: white;
+   
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    width: 170px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: cabin, arial;
+    background-color:  #696969;
+    text-align: center;
+    float: left;
+}
+
+
+li a:hover {
+/*  border-bottom: 5px solid black; */
+}
+/* Here are all the css for sidebar */
+.side {
+    width: 300px;
+    float: left;
+    
+}
+
+#navname {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.profilepic {
+    margin: 50px 12px;
+    width: 260px;
+}
+
+/* The end of the sidebar css */
+
+/* The beginning of the main css */
+
+.main {
+    width: 600px;
+    float: right;
+}
+
+.main h1 {
+    font-family: 'Cabin';
+}
+
+/* The end of the main css */
+
+/* The beginning of musicaldirector css */
+.ymca {
+    width: 290px;
+}
+
+.pimage {
+    width: 300px;
+    float: left;
+}
+
+.imgp {
+    width: 630px;
+    float: right;
+}
+
+/* The end of the musicaldirector css */
