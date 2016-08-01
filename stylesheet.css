@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
 body {
-   width: 960px;
+    width: 960px;
     margin: auto;
 }
 
@@ -20,6 +20,7 @@ body {
 .nav a li:hover {
     background-color: white;
     color: #696969;
+    font-size: 14px;
 }
 
 ul {
@@ -47,29 +48,46 @@ li {
 /* index page */
 
 #indexh1 {
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 50px;
     font-size: 60px;
     color: white;
     font-family: arial;
+    background-color: rgba(0,0,0, 0); 
+    display: block;
+    padding-top: 140px;
+    padding-bottom: 300px;
+    padding-right: 600px;
+    padding-left: 140px;
 }
 
 /* end of index page */
 
 /* composer */
 
-#c-background {
-    width: 600px;
-    float: right;
+.c-background {
+    width: 960px;
+
 }
 
 .composerimg {
+    margin-top: -10px;
     width: 350px;
     float: left;
 }
 
-.composerword {
-    float: clear;
+#composerheader {
+    margin-top: 5px;
+    
+}
+
+#pieratimg {
+    margin-top: 40px; 
+
+    width: 450px;
+}
+
+#pierat {
+    float: left;
 }
 
 
@@ -78,7 +96,7 @@ li {
 
 /* Here are all the css for sidebar */
 .side {
-    width: 300px;
+    width: 350px;
     float: left;
     
 }
@@ -90,8 +108,10 @@ li {
 }
 
 .profilepic {
-    margin: 50px 12px;
-    width: 260px;
+    margin-top: 55px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 345px;
 }
 
 /* The end of the sidebar css */
@@ -103,13 +123,23 @@ li {
     float: right;
 }
 
-.main h1 {
+#title {
     font-family: 'Cabin';
+    margin-top: 50px; 
 }
 
 /* The end of the main css */
 
 /* The beginning of musicaldirector css */
+
+h1 {
+    margin-top: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
 .ymca {
     width: 290px;
 }
@@ -117,6 +147,7 @@ li {
 .pimage {
     width: 300px;
     float: left;
+    margin-top: 5px;
 }
 
 .imgp {
@@ -136,7 +167,3 @@ li {
 
 /* The end of the musicaldirector css */
 
-h1 {
-    margin-top: 70px;
-    font-family: arial;
-}
